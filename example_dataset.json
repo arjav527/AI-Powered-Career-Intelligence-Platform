@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Software Engineer Applicant",
+        "resume_text": "Experienced Software Engineer with 5 years in full stack development. Proficient in JavaScript, React, Node.js, and Python. Built scalable microservices and REST APIs. Familiar with Docker, Kubernetes, and AWS. Strong problem-solving skills and mentorship experience.",
+        "job_description": "We are looking for a Senior Software Engineer to join our team. Must have experience with React, Node.js, and cloud platforms like AWS. Knowledge of containerization (Docker/K8s) is a plus. Responsibilities include building robust APIs and mentoring junior developers.",
+        "expected_match": 85
+    },
+    {
+        "title": "Data Scientist Applicant",
+        "resume_text": "Data Scientist with a Master's degree in Computer Science. Skilled in Python, Pandas, Scikit-learn, and TensorFlow. Experience with data visualization using Matplotlib and Tableau. Strong background in statistics and machine learning algorithms.",
+        "job_description": "Seeking a Data Scientist to analyze large datasets and build predictive models. Proficiency in Python and ML libraries (Scikit-learn, TensorFlow) required. Experience with big data tools like Spark is desirable.",
+        "expected_match": 80
+    },
+    {
+        "title": "Project Manager Applicant",
+        "resume_text": "PMP certified Project Manager with 7 years of experience leading agile teams. Expert in JIRA, Confluence, and Scrum methodologies. Proven track record of delivering projects on time and within budget. Excellent communication and stakeholder management skills.",
+        "job_description": "Hiring a Technical Project Manager to oversee software development lifecycles. Must be familiar with Agile/Scrum. PMP certification preferred. Strong leadership and communication skills essential.",
+        "expected_match": 90
+    }
+]

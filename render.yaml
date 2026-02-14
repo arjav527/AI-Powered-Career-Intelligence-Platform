@@ -1,0 +1,31 @@
+services:
+  # Python ML Service
+  - type: web
+    name: antigravity-ml-service
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.0
+    autoDeploy: false
+
+  # Node.js Backend Service
+  - type: web
+    name: antigravity-backend
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 18.0.0
+      - key: ML_SERVICE_URL
+        fromService:
+          type: web
+          name: antigravity-ml-service
+          property: url
+      - key: MONGO_URI
+        sync: false # User must provide this in Render Dashboard
+      - key: JWT_SECRET
+        sync: false # User must provide this in Render Dashboard
+    autoDeploy: false
