@@ -1,5 +1,7 @@
 # ANTIGRAVITY - AI-Powered Career Intelligence Platform
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Farjav527%2FAI-Powered-Career-Intelligence-Platform&env=VITE_API_URL&build-command=npm%20run%20build&install-command=npm%20install&output-directory=frontend%2Fdist&root-directory=frontend)
+
 ## Overview
 Antigravity is an industry-level SaaS application designed to help job seekers optimize their career trajectory using AI. It provides resume matching, skill gap analysis, salary prediction, and ATS compatibility scoring.
 
